@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Tests">
+
+    <test verbose="2" preserve-order="true" name="C:/Users/User/IdeaProjects/RestAssuredAutomationFrameWork/src/test/java/test">
+        <classes>
+            <class name="test.UserTests">
+                <methods>
+                    <include name="testCreateUser"/>
+                    <include name="testReadUser"/>
+                    <include name="testUpdateUser"/>
+                    <include name="testDeleteUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
