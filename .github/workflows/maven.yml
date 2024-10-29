@@ -1,4 +1,4 @@
-name: PET STORE SMOKE TESTS
+name: REST ASSURED SMOKE TEST
 
 on:
   push:
