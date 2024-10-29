@@ -48,7 +48,7 @@ public class UserTests {
         response.then().log().all();
         // response.then().statusCode(200);  other way
 
-        Assert.assertEquals(response.getStatusCode(),201);
+        Assert.assertEquals(response.getStatusCode(),200);
 
         logger.info("******** user is created *******");
 
